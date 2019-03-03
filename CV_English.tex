@@ -1,0 +1,154 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\title{CV}
+\documentclass[margin, 10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+\usepackage{fontspec}
+\usepackage{helvet} % Default font is the helvetica postscript font
+%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+\usepackage[english]{babel}
+\setlength{\textwidth}{5.1in} % Text width of the document
+\usepackage{hyperref}
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+\moveleft.5\hoffset\centerline{\large\bf Nicolas Znamenski}
+ 
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+ 
+\moveleft.5\hoffset\centerline{\href{mailto:contact@loud.software}{contact@loud.software} | \href{https://github.com/LoudSoftware}{github.com/LoudSoftware} | \href{https://loud.software}{https://Loud.Software} }
+\vspace{2mm}
+\moveleft.5\hoffset\centerline{\bf Languages: French, English}
+
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+%----------------------------------------------------------------------------------------
+
+\begin{resume}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+{\sl BSc with Honours in Computer Science}\\
+University of Ottawa, Ottawa, ON, Third year student. Expected: 2020
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills} 
+
+{\textbf{\sl Languages \& Frameworks:}} C\#, Go, Typescript, MongoDB, Java, Python\\
+{\textbf{\sl Technologies:}} Experience with Git, CI, Docker, Kubernetes and Helm\\
+{\sl Software:} Adobe Creative Suite, FL-Studio, Visual Studio, Jetbrains
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+ 
+\section{Experience}
+
+{\bf {Qlik} \sl{COOP} \hfill January-August 2019}
+\begin{itemize} \itemsep -2pt
+    \item Agile software development of microservices in written in go
+    \item Established a workflow and implementation for mongoDB schema migration
+\end{itemize}
+
+{\bf Cord3 Innovation Inc. \sl COOP Internship (R\&D)} \hfill April-August 2018 
+
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Evaluating Cord3's RNG's randomness
+\item Developed a proof of concept MS Word Add-in to add custom security attributes to selections from within a document
+\end{itemize}
+
+% {IT and customer support consultant} \hfill February-August 2017
+ 
+% \begin{itemize} \itemsep -2pt % Reduce space between items
+% \item Developed an API uptime checker, automatic email change accept script and database query scripts to better help stock management in Python and Java
+% \item Installing and configuring a ticket based support system (OSTicket)
+% \end{itemize}
+
+{\sl Linux Server and cluster management:}
+\begin{itemize} \itemsep -2pt
+\item Personal server running docker containers for Plex, discord bots and development tools
+\item Managing a Minecraft server network in a kubernetes cluster
+\item Experimented with a cluster of 15 servers using Beowulf
+\end{itemize}
+
+{\sl PC building and repair}
+%---------------------------------------------------------------------------------------
+%	Certifications
+%---------------------------------------------------------------------------------------
+% \section{Certifications}
+ 
+%{\sl Responsive Website Development and Design - Coursera Specialization}\\
+%University of London, Goldsmiths, projected year of completion: 2018.
+
+%----------------------------------------------------------------------------------------
+%	Projects
+%----------------------------------------------------------------------------------------
+
+\section{Projects} 
+{\sl Spotify2YouTube:}
+\begin{itemize}
+    \item Created a .NET app that lists your Spotify songs, then searches for the same songs on YouTube and allows you to automatically download, convert and ID3 tag all the songs from YouTube audio streams based on the best quality.
+\end{itemize}
+
+
+{\sl Alexa Volunteer Callbell:}
+\begin{itemize} \itemsep -2pt
+\item Designed a callbell system based on the Alexa Voice Service, AWS Lambda and AWS SNS, sending contextual notifications to hospital volunteers
+\item Established requirements and worked on the project in an Agile method
+\end{itemize}
+
+% {\sl Continuous Integration with Jenkins:}
+% \begin{itemize} \itemsep -2pt
+% \item Configured a Jenkins server for continuous integration for an android app
+% \end{itemize}
+
+
+
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	Extra-Curricular
+%---------------------------------------------------------------------------------------- 
+
+\section{Extra-Curricular \\ involvement}
+\begin{itemize} \itemsep -2pt
+\item Participated in the 2018 CSGames
+\item Participated in multiple CTF challenges: 1st place in a duo team, 2nd place in a duo team after tie-breaker and 4th place solo in the CyScott tryouts
+\item {\sl Meetup.com:} Participate in meetups as part of the "Ottawa IT Community"
+\item {\sl Class Representative:} 1st year representative in university
+\item Video club in the Lycée Français in Vienna. Learned the basic film-making techniques and video editing. Shot a few short films as well as the yearly show
+%  \item {\sl IT Volunteer at the Lycée Claudel in Ottawa:}\\
+%  Building and repairing workstations, as well as maintaining software updates
+\end{itemize}
+
+\end{resume}
+\end{document}
